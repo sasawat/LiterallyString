@@ -3742,6 +3742,7 @@
 		<row><td>ID_STRING3</td><td>1033</td><td>Xyzismywaifu Heavy Industries</td><td>0</td><td/><td>967032047</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>Sasawat Prankprakma</td><td>0</td><td/><td>966985263</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td>psasawat@umich.edu</td><td>0</td><td/><td>967018031</td></row>
+		<row><td>ID_STRING6</td><td>1033</td><td>LITERA~1|LiterallyString</td><td>0</td><td/><td>967022255</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>966997199</td></row>
 	</table>
 
@@ -3850,6 +3851,10 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>NewShortcut1_CEA267D57AE2458EB382278106461329.exe</td><td/><td>&lt;SystemFolder&gt;\SystemPropertiesAdvanced.exe</td><td>0</td></row>
+		<row><td>_36A1547DF6634E5EB35F644DA8615E50.exe</td><td/><td>C:\Users\Sasawat\Documents\GitHub\LiterallyString\LiterallyString\LiterallyString\bin\Release\LiterallyString.exe</td><td>0</td></row>
+		<row><td>_69797CC61D3F4E84A2976F3B69DFB303.exe</td><td/><td>C:\Users\Sasawat\Documents\GitHub\LiterallyString\LiterallyString\LiterallyString\bin\Release\LiterallyString.exe</td><td>0</td></row>
+		<row><td>_8AB2A158E18C454C90B00F47C31A3779.exe</td><td/><td>C:\Users\Sasawat\Documents\GitHub\LiterallyString\LiterallyString\LiterallyString\bin\Release\LiterallyString.exe</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -3982,7 +3987,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{BD9DB31A-286A-44CF-A418-D36E9BC68152}</td></row>
 		<row><td>ISUSSignature</td><td>{012B82A0-74CA-44D4-A3DB-EF1228469F71}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewUI,viewBillboards,viewTextMessages,viewRealSetupDesign,viewSetupDesign,viewSupportFiles,viewCustomActions,viewInstallScriptStd,viewSystemSearch</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject,viewUI,viewBillboards,viewTextMessages,viewRealSetupDesign,viewSetupDesign,viewSupportFiles,viewCustomActions,viewInstallScriptStd,viewSystemSearch,viewShortcuts,viewObjects</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4520,6 +4525,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>NewShortcut1</td><td>StartMenuFolder</td><td>##ID_STRING6##</td><td>LiterallyString.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>NewShortcut1_CEA267D57AE2458EB382278106461329.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
